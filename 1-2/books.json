@@ -1,0 +1,11 @@
+[
+  { "title": "Книга 1", "author": "Автор 1", "description": "Описание книги 1", "price": 300, "image": "Black_Book_PNG_Clipart-1048.png" },
+  { "title": "Книга 2", "author": "Автор 2", "description": "Описание книги 2", "price": 500, "image": "Black_Book_PNG_Clipart-1048.png" },
+  { "title": "Книга 3", "author": "Автор 3", "description": "Описание книги 3", "price": 250, "image": "Black_Book_PNG_Clipart-1048.png" },
+  { "title": "Книга 4", "author": "Автор 4", "description": "Описание книги 4", "price": 450, "image": "Black_Book_PNG_Clipart-1048.png" },
+  { "title": "Книга 5", "author": "Автор 5", "description": "Описание книги 5", "price": 320, "image": "Black_Book_PNG_Clipart-1048.png" },
+  { "title": "Книга 6", "author": "Автор 6", "description": "Описание книги 6", "price": 180, "image": "Black_Book_PNG_Clipart-1048.png" },
+  { "title": "Книга 7", "author": "Автор 7", "description": "Описание книги 7", "price": 510, "image": "Black_Book_PNG_Clipart-1048.png" },
+  { "title": "Книга 8", "author": "Автор 8", "description": "Описание книги 8", "price": 390, "image": "Black_Book_PNG_Clipart-1048.png" },
+  { "title": "Книга 9", "author": "Автор 9", "description": "Описание книги 9", "price": 275, "image": "Black_Book_PNG_Clipart-1048.png" }
+]

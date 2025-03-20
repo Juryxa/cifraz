@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#filterButton {
+    margin-bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex-grow: 1;
+}
+@media (max-width: 600px) {
+    .catalog {
+        grid-template-columns: 1fr;
+    }
+}
+.book-card {
+    border: 1px solid #ccc;
+    padding-bottom: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+    width: 150px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.add-to-cart {
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background: darkgreen;
+}
+
+.cart-container {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+}
+
+#cart {
+    margin-top: 10px;
+}
+

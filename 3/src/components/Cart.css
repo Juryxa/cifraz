@@ -1,0 +1,27 @@
+.cart {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.cart h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cart ul {
+    list-style: none;
+}
+
+.cart li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.cart li:hover {
+    background-color: #f0f0f0;
+}
